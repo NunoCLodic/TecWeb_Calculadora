@@ -1,0 +1,122 @@
+
+/*Corpor do site*/
+body{
+	background-color: #F5D0A9;
+	font-family: sans-serif;
+	align-items: center;
+}
+
+/*Cabeçalho do site*/
+header{
+	top:50;
+	position: fixed;
+	width: 100%;
+}
+
+/*Linha de divisao*/
+hr{
+	color: #610B38;
+	border-width: 4px;
+	width: 80%;
+}
+
+/*Estilo do Menu*/
+nav{
+	text-align:left;
+	top:20;
+	float: right;
+}
+
+a.nav
+{
+	color: #8A0808;
+	text-decoration: none;
+	padding: 5px 15px;
+	text-transform: uppercase;
+}
+a.nav:hover
+{
+	color:#2E2EFE;
+	background-color: #848484;
+	padding: 5px 15px;
+	border-radius: 15px;	
+}
+
+/*Corpor da calculadores*/
+.conteiner{
+	position: relative;
+	margin: 0 auto;
+	width: 315px;
+	height: auto;
+	padding: 10px;
+	background: #A9BCF5;
+	border: 1px solid #d0d0d0;
+	box-shadow: 2px 2px 2px 2px #909090;
+
+}
+/*Ecra da calculadora*/
+.top{
+	position: relative;
+	width: 97%;
+	height: 48px;
+	padding: 6px;
+	background: #8a55d3;
+}
+/*Corpo da calculadora*/
+.body{
+	margin-top: 10px;
+	width: 95%;
+	height: auto;
+	padding: 9px;
+	background: #5858FA;
+
+}
+/*Campo dos digitos*/
+.digitos{
+	width: 100%;
+	height: 45px;
+	border: none;
+	opacity: 0.5;
+	color: #FF8000;
+	font-size: 20px;
+	text-align: right;
+}
+/*Estilos de todos os botoes*/
+.botao{
+	margin-top: 4px;
+	width: 56px;
+	height: 50px;
+	background:#0B3861;
+	color:#fff;
+	border: none;
+	font-size: 20px;
+}
+/*Tamanho do botao "ponto"*/
+.botaoponto{
+	margin-top: 4px;
+	width: 116px;
+	height: 50px;
+	background:#0B3861;
+	color:#fff;
+	border: none;
+	font-size: 20px;
+}
+/*Tamanho do botao Igua*/
+.botaoigual{
+	position: absolute;
+	height: 107px;
+	margin-top: 4px;
+	width: 56px;
+	background:#0B3861;
+	color:#fff;
+	border: none;
+	font-size: 20px;
+}
+/*Estilo do icone de operações que fica no ecra da calculadora*/
+#op{
+	position: absolute;
+	z-index: 999;
+	margin: 15px 10px;
+	font-weight: bold;
+	color:#FF8000;s 
+}
